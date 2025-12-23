@@ -39,7 +39,7 @@ NRF24L01 GND ---------- GND
 ## Hand Controller – Wireless Diagram
 
 ![Hand Controller Diagram]
-(transmitter.jpg.jpeg)
+(images/transmitter.jpg.jpeg)
 
 **Receiver Side (Robot)**
 NRF24L01 CE ----------- D9
