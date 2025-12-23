@@ -67,6 +67,10 @@ DC Motors -------------- Motor Driver Output
 
 ⚠️ Make sure NRF24L01 is powered by 3.3V, not 5V.
 
+[![Hand Controller Diagram]
+(images/full setup.jpg.jpeg)](images/full setup.jpg.jpeg)
+
+
 ## 🧠 Working Principle
 1. The **transmitter Arduino** reads X and Y values from the ADXL345 sensor.
 2. These values are sent wirelessly using the **NRF24L01** module.
