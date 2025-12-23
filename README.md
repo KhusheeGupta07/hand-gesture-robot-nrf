@@ -107,6 +107,10 @@ DC Motors -------------- Motor Driver Output
 4. Tilt your hand to control the robot
 
 ---
+##📼 Demo Video
+[![Hand Controller Gesture Bot]
+(images/demo.mp4)](images/demo.mp4)
+
 
 ## 🧑‍💻 Author
 Khushi Gupta
