@@ -38,7 +38,8 @@ NRF24L01 VCC ---------- 3.3V
 NRF24L01 GND ---------- GND
 ## Hand Controller – Wireless Diagram
 
-![Hand Controller Diagram](images/transmitter.jpg)
+![Hand Controller Diagram]
+(transmitter.jpg.jpeg)
 
 **Receiver Side (Robot)**
 NRF24L01 CE ----------- D9
