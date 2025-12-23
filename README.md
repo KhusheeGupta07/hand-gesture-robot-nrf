@@ -18,8 +18,10 @@ Hand movements are captured using the accelerometer and transmitted wirelessly t
 
 --- 
 🔌**Circuit Connections**
-Transmitter Side (Hand Controller)
 
+## Hand Controller – Wireless Diagram
+**Transmitter Side (Hand Controller)
+**
 +3.3V -----------------+
                         |
 GND -------------------+
@@ -36,7 +38,7 @@ NRF24L01 MOSI --------- D11
 NRF24L01 MISO --------- D12
 NRF24L01 VCC ---------- 3.3V
 NRF24L01 GND ---------- GND
-## Hand Controller – Wireless Diagram
+
 
 [![Hand Controller Diagram]
 (images/transmitter.jpg.jpeg)](images/transmitter.jpg.jpeg)
@@ -66,6 +68,7 @@ Motor Driver GND ------- GND
 DC Motors -------------- Motor Driver Output
 
 ⚠️ Make sure NRF24L01 is powered by 3.3V, not 5V.
+
 
 ##🖼️**A Full setup Image**
 [![Hand Controller Diagram]
