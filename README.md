@@ -67,6 +67,7 @@ DC Motors -------------- Motor Driver Output
 
 ⚠️ Make sure NRF24L01 is powered by 3.3V, not 5V.
 
+##🖼️**A Full setup Image**
 [![Hand Controller Diagram]
 (images/fullsetup.jpg.jpeg)](images/fullsetup.jpg.jpeg)
 
