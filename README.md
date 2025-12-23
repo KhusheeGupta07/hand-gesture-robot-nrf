@@ -59,6 +59,10 @@ Motor Driver ENB ------- D7
 Motor Driver VCC ------- 5V
 Motor Driver GND ------- GND
 
+[![Hand Controller Diagram]
+(images/receiver.jpg.jpeg)](images/receiver.jpg.jpeg)
+
+
 DC Motors -------------- Motor Driver Output
 
 ⚠️ Make sure NRF24L01 is powered by 3.3V, not 5V.
