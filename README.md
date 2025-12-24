@@ -2,10 +2,19 @@
 
 # Hand Gesture Controlled Robot (NRF24L01)
 
-This project demonstrates a **hand gesture controlled robot** using an **ADXL345 accelerometer** and **NRF24L01 wireless modules**.  
-Hand movements are captured using the accelerometer and transmitted wirelessly to control the robot’s movement— no buttons, just intuitive hand gestures.
+## 📌 Problem Statement
+Traditional robot control methods like wired controllers or joysticks limit mobility and user interaction. There is a need for a more intuitive, wireless, and human-friendly way to control robots, especially for learning robotics and human–machine interaction.
 
----
+## 💡 Solution Overview
+This project implements a *hand gesture controlled robot* using an accelerometer and NRF24L01 wireless modules. Hand movements are captured by a transmitter unit and sent wirelessly to a receiver unit mounted on the robot. The receiver interprets these gestures and controls four DC motors accordingly, enabling smooth and responsive robot movement.
+
+## 🧠 How It Works (High-Level)
+1. Hand gestures are detected using an accelerometer.
+2. The transmitter Arduino processes gesture data.
+3. Commands are sent wirelessly using the NRF24L01 module.
+4. The receiver Arduino decodes the data.
+5. A motor driver controls four motors based on received commands.
+
 
 ## 🔧 Components Used
 - Arduino Nano × 2  
@@ -17,9 +26,9 @@ Hand movements are captured using the accelerometer and transmitted wirelessly t
 - Power Supply / Battery  
 
 --- 
-🔌**Circuit Connections**
+🔌**Circuit & Pin Connections**
 
-## Hand Controller – Wireless Diagram
+
 **Transmitter Side (Hand Controller)
 **
 +3.3V -----------------+
@@ -67,7 +76,7 @@ Motor Driver GND ------- GND
 
 DC Motors -------------- Motor Driver Output
 
-⚠️ Make sure NRF24L01 is powered by 3.3V, not 5V.
+⚠️ Make sure NRF24L01 is powered by 3.3V, not 5V to avoid communication failure.
 
 
 ##🖼️**A Full setup Image**
@@ -75,18 +84,26 @@ DC Motors -------------- Motor Driver Output
 (images/fullsetup.jpg.jpeg)](images/fullsetup.jpg.jpeg)
 
 
-## 🧠 Working Principle
-1. The **transmitter Arduino** reads X and Y values from the ADXL345 sensor.
-2. These values are sent wirelessly using the **NRF24L01** module.
-3. The **receiver Arduino** receives the data.
-4. Based on hand tilt direction, the robot moves:
-   - Forward
-   - Backward
-   - Left
-   - Right
-   - Stop
+## ⚙️ Working Principle (Step-by-Step)
+1. The accelerometer senses hand tilt in different directions.
+2. Arduino converts sensor values into movement commands.
+3. Commands are transmitted wirelessly using NRF24L01.
+4. Receiver Arduino decodes the received data.
+5. Motor driver activates motors to move the robot forward, backward, left, or right.
+   
 
----
+## 🧾 Code Explanation (Logic Overview)
+
+### Transmitter Code
+- Reads accelerometer values.
+- Maps hand orientation to direction commands.
+- Sends commands wirelessly using NRF24L01.
+
+### Receiver Code
+- Listens for incoming data.
+- Matches received commands with predefined movements.
+- Controls motor driver pins accordingly.
+
 
 ## 📂 Project Files
 - `gesture_transmitter.ino` → Transmitter code (hand side)
@@ -111,6 +128,11 @@ DC Motors -------------- Motor Driver Output
 [![Hand Controller Gesture Bot]
 (images/demo.mp4)](images/demo.mp4)
 
+## 🚀 Future Improvements
+- Add obstacle avoidance
+- Improve gesture accuracy
+- Integrate camera module
+- Use rechargeable Li-ion battery
 
 ## 🧑‍💻 Author
 Khushi Gupta
@@ -119,3 +141,6 @@ Khushi Gupta
 📜 License
 
 This project is open-source and free to use for learning purposes.
+
+## 🙌 Acknowledgements
+Inspired by learning projects in robotics, wireless communication, and Hack Club initiatives.
