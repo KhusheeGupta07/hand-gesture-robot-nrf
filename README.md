@@ -125,8 +125,7 @@ DC Motors -------------- Motor Driver Output
 
 ---
 ##📼 Demo Video
-[![Hand Controller Gesture Bot]
-(images/demo.mp4)](images/demo.mp4)
+https://drive.google.com/file/d/1mA8qm6-gGhSdO4f_AgpAZSGoHc9GC58T/view?usp=drive_link
 
 ## 🚀 Future Improvements
 - Add obstacle avoidance
