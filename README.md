@@ -3,17 +3,14 @@
 # Hand Gesture Controlled Robot (NRF24L01)
 
 ## 📌 Problem Statement
-Traditional robot control methods like wired controllers or joysticks limit mobility and user interaction. There is a need for a more intuitive, wireless, and human-friendly way to control robots, especially for learning robotics and human–machine interaction.
+Traditional robot control methods like wired controllers or joysticks lesses their uses and their interaction with everyone.So, there is a need for wireless,easily handable and human friendly control robots, especially for learning robotics and human–machine interaction.
 
 ## 💡 Solution Overview
-This project implements a *hand gesture controlled robot* using an accelerometer and NRF24L01 wireless modules. Hand movements are captured by a transmitter unit and sent wirelessly to a receiver unit mounted on the robot. The receiver interprets these gestures and controls four DC motors accordingly, enabling smooth and responsive robot movement.
+This project implements a *hand gesture controlled robot* using an accelerometer and NRF24L01 wireless modules.  Our hand movements are captured by the transmitter unit which is  placed at our hand and sent wirelessly to a receiver unit which is on the robot. The receiver interprets these gestures and controls four DC motors accordingly and enabling us smooth and responsive robot movement.
 
 ## 🧠 How It Works (High-Level)
-1. Hand gestures are detected using an accelerometer.
-2. The transmitter Arduino processes gesture data.
-3. Commands are sent wirelessly using the NRF24L01 module.
-4. The receiver Arduino decodes the data.
-5. A motor driver controls four motors based on received commands.
+At first,  Our Hand gestures are detected by using an accelerometer.Then,the transmitter Arduino Nano processes gesture data.Then,Commands are sent wirelessly using the NRF24L01 module from transmitter Arduino Nano to receiver Arduino  Nano.
+Then,receiver Arduino  decodes the data.and give commands to  receiver Arduino.And by using a motor driver ,we control four motors based on received commands.
 
 
 ## 🔧 Components Used
@@ -76,7 +73,7 @@ Motor Driver GND ------- GND
 
 DC Motors -------------- Motor Driver Output
 
-⚠️ Make sure NRF24L01 is powered by 3.3V, not 5V to avoid communication failure.
+⚠️We have to make sure NRF24L01 is powered by 3.3V, not 5V to avoid any of the communication failure.
 
 
 ##🖼️**A Full setup Image**
@@ -85,10 +82,10 @@ DC Motors -------------- Motor Driver Output
 
 
 ## ⚙️ Working Principle (Step-by-Step)
-1. The accelerometer senses hand tilt in different directions.
-2. Arduino converts sensor values into movement commands.
+1. The accelerometer which is placed at The hand senses our movement,as hand  can tilt in all the different directions.
+2. Arduino on our hand converts sensor values into movement commands.
 3. Commands are transmitted wirelessly using NRF24L01.
-4. Receiver Arduino decodes the received data.
+4. Receiver Arduino decodes all the received data and take action on The received signalswith the help of motor driver and all the 4 motors .
 5. Motor driver activates motors to move the robot forward, backward, left, or right.
    
 
@@ -96,7 +93,7 @@ DC Motors -------------- Motor Driver Output
 
 ### Transmitter Code
 - Reads accelerometer values.
-- Maps hand orientation to direction commands.
+- Maps our hand orientation to The direction commands.
 - Sends commands wirelessly using NRF24L01.
 
 ### Receiver Code
@@ -119,13 +116,16 @@ DC Motors -------------- Motor Driver Output
 
 ## 🚀 How to Run
 1. Upload `gesture_transmitter.ino` to the **transmitter Arduino Nano**
-2. Upload `gesture_receiver.ino` to the **receiver Arduino Nano**
-3. Power both circuits
-4. Tilt your hand to control the robot
+3. Upload `gesture_receiver.ino` to the **receiver Arduino Nano**
+4. connect all the components as shown in image,properly.
+5. Make sure all connections should be proper to avoid any damage of any components and also to run our hand controller properly.
+6. Power both circuits.
+7. battery should be charged.
+8. Tilt your hand to control the robot.
+9. And ,finally ,you will see our hand controller is moving.
+10. and hence,in this way, our project is successfull.
 
 ---
-##📼 Demo Video
-https://drive.google.com/file/d/1mA8qm6-gGhSdO4f_AgpAZSGoHc9GC58T/view?usp=drive_link
 
 ## 🚀 Future Improvements
 - Add obstacle avoidance
