@@ -13,7 +13,7 @@ At first,  Our Hand gestures are detected by using an accelerometer.Then,the tra
 Then,receiver Arduino  decodes the data.and give commands to  receiver Arduino.And by using a motor driver ,we control four motors based on received commands.
 
 
-## 🔧 Components Used
+COMPONENTS WHICH ARE USED IN 
 - Arduino Nano × 2  
 - ADXL345 Accelerometer  
 - NRF24L01 Transceiver Modules × 2  
