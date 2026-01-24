@@ -45,6 +45,8 @@ NRF24L01  MISO----D12
 NRF24L01 VCC----3.3V
 NRF24L01 GND---GND
 
+![Hand Controller Diagram] (images/transmitter.jpg.jpeg)
+
 
 [RECEIVER SIDE { ON THE ROBOT}  ]
 NRF24L01 CE---D9
@@ -55,7 +57,11 @@ NRF24L01 MISO---D12
 NRF24L01 VCC---3.3V
 NRF24L01 GND---GND
 
+![Hand Controller Diagram] (images/receiver.jpg.jpeg)
+
 DC MOTORS ------MOTOR DRIVE AS AN OUTPUT...
+
+A Full setup Image ![Hand Controller Diagram] (images/fullsetup.jpg.jpeg)
 
 
 **CAUTION!!!!!**
