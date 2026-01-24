@@ -1,19 +1,19 @@
 ## HAND GESTURE CONTROLLED BOT
 
-## PROBLEM STATEMENT OF THIS PROJECT
+## **PROBLEM STATEMENT OF THIS PROJECT**
 Traditional robot control methods like wired controllers or joysticks lesses their uses and their interaction with everyone.So, there is a need for wireless,easily handable and human friendly control robots, especially for learning robotics and human–machine interaction.
 
-##SOLUTION ,WHICH HELPS US.
+##**SOLUTION ,WHICH HELPS US.**
 
 This project implements a *hand gesture controlled robot* using an accelerometer and NRF24L01 wireless modules.  Our hand movements are captured by the transmitter unit which is  placed at our hand and sent wirelessly to a receiver unit which is on the robot. The receiver interprets these gestures and controls four DC motors accordingly and enabling us smooth and responsive robot movement.
 
-##HOW THIS WORKS(IN SHORT FORM)
+##**HOW THIS WORKS(IN SHORT FORM)**
 
 At first,  Our Hand gestures are detected by using an accelerometer.Then,the transmitter Arduino Nano processes gesture data.Then,Commands are sent wirelessly using the NRF24L01 module from transmitter Arduino Nano to receiver Arduino  Nano.
 Then,receiver Arduino  decodes the data.and give commands to  receiver Arduino.And by using a motor driver ,we control four motors based on received commands.
 
 
-## COMPONENTS WHICH ARE USED IN MAKING THIS PROJECT ARE LISTED AS SHOWN BELOW:
+##** COMPONENTS WHICH ARE USED IN MAKING THIS PROJECT ARE LISTED AS SHOWN BELOW:**
 1.ARDUIno NANO(2)
 2. ADXL345 Accelorometer (1)
 3. nrf24L01 transeiver module (2)
@@ -58,7 +58,7 @@ NRF24L01 GND---GND
 DC MOTORS ------MOTOR DRIVE AS AN OUTPUT...
 
 
-CAUTION!!!!!
+**CAUTION!!!!!**
 WE have to make sure that NRF24L01 is powered by the 3.3v ,,not by the 5V ,,to avoid any damage to any electronic items ,which are used or any communication failure in making the project.
 
 ## **WORKING PRINCIPAL**
