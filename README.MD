@@ -37,18 +37,18 @@ COMPONENTS:---
 
 
 [ADXL345 Pin ->  ARDUINO NANO(I2C)]
-ADXL345 SDA-----A4(ARDUINO)
-ADXL 345 SCL-----A5(ARDUINO)
-ADXL 345 VCC----3.3V
-ADXL 345 GND---GND
+ADXL345 SDA-----A4(ARDUINO)                                                                                                      
+ADXL 345 SCL-----A5(ARDUINO)                                                                                                            
+ADXL 345 VCC----3.3V                                                                        
+ADXL 345 GND---GND                                                                                                                       
 
 
 [NRF24L01   -> ARDUINO NANO]
-NRF24L01 SCK----D13
-NRF24L01  CE---D9
-NRF24L01 CSN---D10
-NRF24L01 MOSI-----D11
-NRF24L01  MISO----D12
+NRF24L01 SCK----D13                                                                               
+NRF24L01  CE---D9                                                                                                 
+NRF24L01 CSN---D10                                                      
+NRF24L01 MOSI-----D11                                                                      
+NRF24L01  MISO----D12                                                                                   
 NRF24L01 VCC----3.3V
 NRF24L01 GND---GND
 
@@ -68,20 +68,20 @@ COMPONENTS:--
 
 
 [NRF24L01  ->  Arduino]
-NRF24L01 CE---D9
-NRF24L01 CSN---D10
-NRF24L01 SCK---D13
-NRF24L01 MOSI---D11
-NRF24L01 MISO---D12
-NRF24L01 VCC---3.3V
-NRF24L01 GND---GND
+NRF24L01 CE---D9                                                                     
+NRF24L01 CSN---D10                                                                
+NRF24L01 SCK---D13                                                              
+NRF24L01 MOSI---D11                                                                          
+NRF24L01 MISO---D12                                            
+NRF24L01 VCC---3.3V                                                                           
+NRF24L01 GND---GND                                                                         
 
 [MOTOR DRIVER L298N PIN -->Arduino]
 
-IN1 ----------D2
-IN2-----------D3
-IN3---------D4
-IN4---------D5
+IN1 ----------D2                                                          
+IN2-----------D3                                                
+IN3---------D4                                                   
+IN4---------D5                                                                                                       
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------_______________________________________________________________________________________________________________________________________________________
 DC MOTORS ------MOTOR DRIVE AS AN OUTPUT...
