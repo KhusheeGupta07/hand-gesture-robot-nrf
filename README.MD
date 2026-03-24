@@ -26,17 +26,24 @@ Then,receiver Arduino  decodes the data.and give commands to  receiver Arduino.A
 10.Skeleton board for making a car bot(1)
 11. breadbord (2)
 
-## CIRCUIT AND PIN CONNECTIONS
+**## CIRCUIT AND PIN CONNECTIONS**
 
 
-[TRANSMITTER SIDE {hand controller}  ]
-+3.3V------+
-GND------+
+**[TRANSMITTER SIDE {hand controller}  ]**
+COMPONENTS:---
+1. Arduino Nano
+2. ADXL345 Accelerometer
+3.NRF24L01
+
+
+[ADXL345 Pin ->  ARDUINO NANO(I2C)]
 ADXL345 SDA-----A4(ARDUINO)
 ADXL 345 SCL-----A5(ARDUINO)
 ADXL 345 VCC----3.3V
 ADXL 345 GND---GND
 
+
+[NRF24L01   -> ARDUINO NANO]
 NRF24L01 SCK----D13
 NRF24L01  CE---D9
 NRF24L01 CSN---D10
@@ -45,13 +52,22 @@ NRF24L01  MISO----D12
 NRF24L01 VCC----3.3V
 NRF24L01 GND---GND
 
+## IMPORTANT : NRF works only on 3.3 V( NOT 5V)
 
-[![Hand Controller Diagram]
-(images/transmitter.jpg.jpeg)](images/transmitter.jpg.jpeg)
+___________________________________________________________________________________________________________________________________________________________________
 
 
 
-[RECEIVER SIDE { ON THE ROBOT}  ]
+**[RECEIVER SIDE { ON THE ROBOT}  ]**
+
+COMPONENTS:--
+1, Arduino Nano
+2. NRF24L01
+3. L298N Motor Driver
+4, DC MOTOR(*4)
+
+
+[NRF24L01  ->  Arduino]
 NRF24L01 CE---D9
 NRF24L01 CSN---D10
 NRF24L01 SCK---D13
@@ -60,15 +76,31 @@ NRF24L01 MISO---D12
 NRF24L01 VCC---3.3V
 NRF24L01 GND---GND
 
-[![Hand Controller Diagram]
-(images/receiver.jpg.jpeg)](images/receiver.jpg.jpeg)
+[MOTOR DRIVER L298N PIN -->Arduino]
 
+IN1 ----------D2
+IN2-----------D3
+IN3---------D4
+IN4---------D5
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------_______________________________________________________________________________________________________________________________________________________
 DC MOTORS ------MOTOR DRIVE AS AN OUTPUT...
 
-**A Full setup Image**
-[![Hand Controller Diagram]
-(images/fullsetup.jpg.jpeg)](images/fullsetup.jpg.jpeg)
+**POWER SETUPS**
+TRANSMITTER:
+Arduino  POWERED VIA 9V BATTTERY.
+
+RECEIVER:
+BATTERY  -> L298N
+L298N  -> POWER SOURCES
+Arduino   GETS POWER FROM BATTERY 12 V BATTREY
+
+
+
+** COMMON MISTAKES**
+1,. NO COMMON GROUND WILL LED TO FAILURE OF SYSTEM.
+2,. LOOSE WIRES MEANS UNSTABLE ROBOT.
+3., WEAK  BATTERY LED MOTORS NOT TO MOVE PROPERLY.
 
 
 **CAUTION!!!!!**
