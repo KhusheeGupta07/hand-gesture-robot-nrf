@@ -1,4 +1,4 @@
-## HAND GESTURE CONTROLLED BOT
+## HAND GESTURE CONTROLLED BOT##
 
 ## **PROBLEM STATEMENT OF THIS PROJECT**
 Traditional robot control methods like wired controllers or joysticks lesses their uses and their interaction with everyone.So, there is a need for wireless,easily handable and human friendly control robots, especially for learning robotics and human–machine interaction.
