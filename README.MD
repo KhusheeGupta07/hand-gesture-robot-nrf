@@ -13,18 +13,18 @@ At first,  Our Hand gestures are detected by using an accelerometer.Then,the tra
 Then,receiver Arduino  decodes the data.and give commands to  receiver Arduino.And by using a motor driver ,we control four motors based on received commands.
 
 
-##** COMPONENTS WHICH ARE USED IN MAKING THIS PROJECT ARE LISTED AS SHOWN BELOW:**
-1.ARDUIno NANO(2)
-2. ADXL345 Accelorometer (1)
+##** COMPONENTS WHICH ARE USED IN MAKING THIS PROJECT, ARE LISTED AS SHOWN BELOW:**
+1.ARDUIno NANO(2)                                                                         
+2. ADXL345 Accelorometer (1)                                                                          
 3. nrf24L01 transeiver module (2)
-4. motor DRIVER (1)
-5. DC Motors (4)
-6. jumping wires( as per need)
-7. BATTERY 12 volt (1)
-8. Batteryb  9 volt (1)
-9. Tires (4)
-10.Skeleton board for making a car bot(1)
-11. breadbord (2)
+4. motor DRIVER (1)                                                                                
+5. DC Motors (4)                                                                                 
+6. jumping wires( as per need)                                                              
+7. BATTERY 12 volt (1)                                                                             
+8. Battery  9 volt (1)                                                                                     
+9. Tires (4)                                                                                            
+10.Skeleton board for making a car bot(1)                                    
+11. breadbord (2)                                                    
 
 **## CIRCUIT AND PIN CONNECTIONS**
 
@@ -39,8 +39,8 @@ COMPONENTS:---
 [ADXL345 Pin ->  ARDUINO NANO(I2C)]
 ADXL345 SDA-----A4(ARDUINO)                                                                                                      
 ADXL 345 SCL-----A5(ARDUINO)                                                                                                            
-ADXL 345 VCC----3.3V                                                                        
-ADXL 345 GND---GND                                                                                                                       
+ADXL 345 VCC----3.3V                                                                                                     
+ADXL 345 GND---GND                                                                                                                                    
 
 
 [NRF24L01   -> ARDUINO NANO]
@@ -54,7 +54,7 @@ NRF24L01 GND---GND
 
 ## IMPORTANT : NRF works only on 3.3 V( NOT 5V)
 
-___________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 
