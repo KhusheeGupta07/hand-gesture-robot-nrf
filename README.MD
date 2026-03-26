@@ -1,11 +1,11 @@
-## HAND GESTURE CONTROLLED BOT##
+## *HAND GESTURE CONTROLLED BOT*##
 
 ## **PROBLEM STATEMENT OF THIS PROJECT**
 Traditional robot control methods like wired controllers or joysticks lesses their uses and their interaction with everyone.So, there is a need for wireless,easily handable and human friendly control robots, especially for learning robotics and human–machine interaction.
 
 **SOLUTION ,WHICH HELPS US.**
 
-This project implements a *hand gesture controlled robot* using an accelerometer and NRF24L01 wireless modules.  Our hand movements are captured by the transmitter unit which is  placed at our hand and sent wirelessly to a receiver unit which is on the robot. The receiver interprets these gestures and controls four DC motors accordingly and enabling us smooth and responsive robot movement.
+This project implements a hand gesture controlled robot using an accelerometer and NRF24L01 wireless modules.  Our hand movements are captured by the transmitter unit which is  placed at our hand and sent wirelessly to a receiver unit which is on the robot. The receiver interprets these gestures and controls four DC motors accordingly and enabling us smooth and responsive robot movement.
 
 ##**HOW THIS WORKS(IN SHORT FORM)**
 
