@@ -3,7 +3,7 @@
 ## **PROBLEM STATEMENT OF THIS PROJECT**
 Traditional robot control methods like wired controllers or joysticks lesses their uses and their interaction with everyone.So, there is a need for wireless,easily handable and human friendly control robots, especially for learning robotics and human–machine interaction.
 
-##**SOLUTION ,WHICH HELPS US.**
+**SOLUTION ,WHICH HELPS US.**
 
 This project implements a *hand gesture controlled robot* using an accelerometer and NRF24L01 wireless modules.  Our hand movements are captured by the transmitter unit which is  placed at our hand and sent wirelessly to a receiver unit which is on the robot. The receiver interprets these gestures and controls four DC motors accordingly and enabling us smooth and responsive robot movement.
 
@@ -124,50 +124,48 @@ WE have to make sure that NRF24L01 is powered by the 3.3v ,,not by the 5V ,,to a
 **##CODE EXPLANATION **
 
 [TRANSMITTER SIDE]                                                    
-IT READS THE ADXL VALUES.                                              
+IT READS THE ADXL VALUES.                                                                          
 THEN, SENSES,DETECT AND CALCULATE OUR HAND OREINTATION VALUES TO THE DIRCECTION  COMMANDS.                
 THEN, ALL THE COMMANDS ARE SENT BY THE USE OF NRF24L01 WIRELESSELY.                                    
 
 
-[RECEIVER  SIDE]
+[RECEIVER  SIDE]                                                                           
 
 IT READS ALL THE INCOMING DATA .                                                                 
-AND THEN IT MATCHES ALL THE RECAIVED COMMANDS TO THE PREDEFINED DATA MOVEMENTS.                         
+AND THEN IT MATCHES ALL THE RECeIVED COMMANDS TO THE PREDEFINED DATA MOVEMENTS.                         
 AND THEN  CONTROLS MOTOR DRIVER PINS ACCORDINGLY TO THE RECEIVED COMMANDS AND MOVE THE BOT AVCCORDING TO THAT SIGNALS.                                                                                                  
 
 
 ##** PROJECT FILES **
-'gesture_transmitter.ino  -> transmitter code (hand side)
-'gesture_receiver.ino  ->receiver code (robot's side)
+'gesture_transmitter.ino  -> transmitter code (hand side)                                   
+'gesture_receiver.ino  ->receiver code (robot's side)                                 
 
 ## ** COMMUNICATION MODE**
-A Wireless communication is done using aNRF25L01 (2.4 Ghz).
+A Wireless communication is done using a NRF25L01 (2.4 Ghz).                                            
 Data transmitted : by using the X and Y values of our hand directions.
 
 ##** HOW TO RUN OUR ROBOT
 (step by step  rules )
 1.first upload,'gesture_transmitter.ino'  to the ** transmitter ARDUINO NAno**.
 2. Then upload 'gesture_receiver.ino' to the ** receiver ARduiNO Nano**.
-3.Then, connect all the mentioned components as shown i the image properly.
-4.Make sure all the connections should be proper to avoid any damage of any components and also to run our hand controller properly.
-5, now, give  power   to both the circuits.
-6. BATTEry should be charged to  run the bot proprly.
-7. NOW, Tilt your hand to co trol the motion of the robot.
-8. and , finally , you will see our hand controller is moving.
-9.and hence, in this way, our project is successfull.
+3.Then, connect all the mentioned components as shown in the image properly.
+4.Make sure all the connections should be proper to avoid any damage of any components and also to run our hand controller properly.                                                                             
+5.  Now, give  power   to both the circuits.
+6. BATTEry should be charged to  run the bot proprly.                                  
+7. NOW, Tilt your hand to control the motion of the robot.                                        
+8. And , finally , you will see our hand controller is moving.                                     
+9. Hence, in this way, our project is successfull.
 
 
 **FUTURE IMPROVEMENTS**
-.Adding of  obstacle avoiding appliance.                                        
-. Improve gesture accuracy.                                                              
-. ADDING OF THE CAMERA.                                                               
+.Adding of  obstacle avoiding appliance.                                                                                      
+. Improve gesture accuracy.                                                                                                  
+. ADDING OF THE CAMERA.                                                                                       
 
 
 **AUTHOR**
 KHUSHI GUPTA
 
-** LICENSE**
-This project is open -source and free for lerning purposes to all the learners.
 
 
 
