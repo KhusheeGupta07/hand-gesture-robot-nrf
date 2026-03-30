@@ -63,7 +63,8 @@ accurate ,then i correct them by making some another mistakes .
 So, this is very memorable  moment for me to building such a nice CAD Design , . I became very happy after 
 seeing a glance of my model . It took me about  4 to 5 days to complete this task.                             
 I spent about total 48 to 50  hrs in these days on making these cad designs, but this is very learning journing.                          
-_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![hand-gesture-robot-nrf](transmitter_designs.png)
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
  After this i am applying for the grant. i want to work on this project as soon as possible as it is making me very excited.
