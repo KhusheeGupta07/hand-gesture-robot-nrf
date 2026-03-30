@@ -14,7 +14,7 @@ Then I need to work on CAD models , so , I  learn to make CAD MODELS. I InSTALLE
 
 IT took about  12 hrs to learning CAD by practising again and again.
 
-![hand-gesture-robot-nrf](images/cad_designs.png)
+![hand-gesture-robot-nrf](cad_designs.png)
 
 **DAY 2:**                                                                                                 
 ___________________________________________________________________________________________________________________
