@@ -12,9 +12,9 @@ ________________________________________________________________________________
 I THOUGHT ABOUT HOW my working model looks like in 3D . THen i came up with an idea of designing it's rough sktch.
 Then I need to work on CAD models , so , I  learn to make CAD MODELS. I InSTALLED THE Required softwares
 
-
 IT took about  12 hrs to learning CAD by practising again and again.
-<img src="images/cad_designs.png" width="400"/> 
+
+![cad_designs](images/cad_designs.png)
 
 **DAY 2:**                                                                                                 
 ___________________________________________________________________________________________________________________
