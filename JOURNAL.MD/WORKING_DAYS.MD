@@ -27,7 +27,7 @@ So i learn a basic idea about CAD Designing , . AND TODAY I have to design my tr
 so i starting  make CAD for my transmitter part . then , i have to make CAD for my receiver part. SO , it took 
 about 16 hrs to make the cad designs of all the components like sensors, arduino nano...                   
 But, at the end , i satisfied after seeing my CAD Design of transmittre part.
-
+![hand-gesture-robot-nrf](transmitter_cad.jpeg)
 __________________________________________________________________________________________________________________
 
 **DAY 3:**                                                                                                        
