@@ -1,8 +1,8 @@
-**JOURNAL ENTRY  -- HAND GESTURE ROBOT**
+*JOURNAL ENTRY  -- HAND GESTURE ROBOT*
 
 My project name is HAND GESTURE ROBOT.
 THIS  is my first hardware project. I am feeling like writing a diary while writing this journal. 
-As I start working on my  PROJECT ,firstly i came to write Journal. It's a good experience to write about our 
+As I start working on my  PROJECT ,firstly i came to write Journal and after finishing , again i come to this . It's a good experience to write about our 
 project with the whole explanation.So that reader can be understand it easily.
 
 
@@ -11,8 +11,8 @@ project with the whole explanation.So that reader can be understand it easily.
 __________________________________________________________________________________________________________________
 I THOUGHT ABOUT HOW my working model looks like in 3D . THen i came up with an idea of designing it's rough sktch.
 Then I need to work on CAD models , so , I  learn to make CAD MODELS. I InSTALLED THE Required softwares
-
-IT took about  12 hrs to learning CAD by practising again and again.
+it took me about 2 to 3 days ,thinking about it.   
+IT took approximate   12 hrs to learning CAD by practising again and again in these 2 to 3 days.
 
 ![hand-gesture-robot-nrf](cad_designs.png)
 
@@ -30,7 +30,8 @@ Today I had built my Readme.md file.
 Generally , I get heaitated about talking on my work, which I had  done,, but this readme.md is such a great thing .
 I am able to explaining about my whole project openely 
 Also , github is an open source for all the developers,, so it may be very helpful for all of us to unlock new Idea,
-and learning more to more.
+and learning more to more. i spent about 5 hours on making readme.md.
+
 "README.MD" AS WELL AS THIS "journal"  WILL BE  Updated as work goes on progress,, day by day.
 
 **DAY 4:**
@@ -50,8 +51,8 @@ todaY I come back to my CAD designing PROCESS,. I sit omn my chair by the though
 so I started making and making , working on my cad modekls .i design and designs, sometimes my deisgn not 
 accurate ,then i correct them by making some another mistakes .                                          
 So, this is very memorable  moment for me to building such a nice CAD Design , . I became very happy after 
-seeing a glance of my model .   
-I spent about 48 to 50  hrs on making these cad designs, but this is very learning journing.                          
+seeing a glance of my model . It took me about  4 to 5 days to complete this task.                             
+I spent about total 48 to 50  hrs in these days on making these cad designs, but this is very learning journing.                          
 ___________________________________________________________________________________________________________________
 
  After this i am applying for the grant. i want to work on this project as soon as possible as it is making me very excited.
