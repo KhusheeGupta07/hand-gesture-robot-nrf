@@ -14,8 +14,7 @@ Then I need to work on CAD models , so , I  learn to make CAD MODELS. I InSTALLE
 
 
 IT took about  12 hrs to learning CAD by practising again and again.
-[images\cad_designs]
-
+<img src="images/cad_designs.png" width="400"/>
 
 **DAY 2:**                                                                                                 
 ___________________________________________________________________________________________________________________
