@@ -61,7 +61,7 @@ ________________________________________________________________________________
 **[RECEIVER SIDE { ON THE ROBOT}  ]**
 
 COMPONENTS:--
-1, Arduino Nano
+1, Arduino Nano                                               
 2. NRF24L01
 3. L298N Motor Driver
 4, DC MOTOR(*4)
@@ -86,8 +86,8 @@ IN4---------D5
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------_______________________________________________________________________________________________________________________________________________________
 DC MOTORS ------MOTOR DRIVE AS AN OUTPUT...
 
-**POWER SETUPS**
-TRANSMITTER:
+**POWER SETUPS**                                           
+TRANSMITTER:                                               
 Arduino  POWERED VIA 9V BATTTERY.
 
 RECEIVER:
@@ -97,17 +97,17 @@ Arduino   GETS POWER FROM BATTERY 12 V BATTREY
 
 
 
-**COMMON MISTAKES**
+**COMMON MISTAKES**                                      
 1,. NO COMMON GROUND WILL LED TO FAILURE OF SYSTEM.
 2,. LOOSE WIRES MEANS UNSTABLE ROBOT.
 3., WEAK  BATTERY LED MOTORS NOT TO MOVE PROPERLY.
 
 
-**CAUTION!!!!!**
+**CAUTION!!!!!**                                                    
 WE have to make sure that NRF24L01 is powered by the 3.3v ,,not by the 5V ,,to avoid any damage to any electronic items ,which are used or any communication failure in making the project.
 
 ## **WORKING PRINCIPAL**
-
+ 
 
 1. AT FIRST ,, AS WE  SHOULD MAKE ALL THE CONNECTIONS PROPERLY AND CONNET THE BATTERY TO THE WIRES TO MAKE THE CCIRCUIT COMPLETE .                                                                        
 2. THEN,AFTER CONNECTING ALL THE CIRCUITS PROPERLY,,THE ACCELEROMETER ,,WHICH IS PLACED ON OUR HAND ,SENSES OUR MOVEMENT , AS OUR HAND CAN TILT IN ALL THE DIRECTIONS ,, THE SENSOR DETECTS THE MOVEMENT OF OUR HAND IN ALL THE DIRECTIONS AS OUR HAND MOVES.                                                          
@@ -126,7 +126,7 @@ WE have to make sure that NRF24L01 is powered by the 3.3v ,,not by the 5V ,,to a
 [TRANSMITTER SIDE]                                                    
 IT READS THE ADXL VALUES.                                                                          
 THEN, SENSES,DETECT AND CALCULATE OUR HAND OREINTATION VALUES TO THE DIRCECTION  COMMANDS.                
-THEN, ALL THE COMMANDS ARE SENT BY THE USE OF NRF24L01 WIRELESSELY.                                    
+THEN, ALL THE COMMANDS ARE SENT BY THE USE OF NRF24L01 WIRELESSELY.                                                  
 
 
 [RECEIVER  SIDE]                                                                           
@@ -136,18 +136,18 @@ AND THEN IT MATCHES ALL THE RECeIVED COMMANDS TO THE PREDEFINED DATA MOVEMENTS.
 AND THEN  CONTROLS MOTOR DRIVER PINS ACCORDINGLY TO THE RECEIVED COMMANDS AND MOVE THE BOT AVCCORDING TO THAT SIGNALS.                                                                                                  
 
 
-##** PROJECT FILES **
+##**PROJECT FILES**
 'gesture_transmitter.ino  -> transmitter code (hand side)                                   
 'gesture_receiver.ino  ->receiver code (robot's side)                                 
 
-## ** COMMUNICATION MODE**
+## **COMMUNICATION MODE**
 A Wireless communication is done using a NRF25L01 (2.4 Ghz).                                            
 Data transmitted : by using the X and Y values of our hand directions.
 
-##** HOW TO RUN OUR ROBOT
+## **HOW TO RUN OUR ROBOT**                                                        
 (step by step  rules )
-1.first upload,'gesture_transmitter.ino'  to the ** transmitter ARDUINO NAno**.
-2. Then upload 'gesture_receiver.ino' to the ** receiver ARduiNO Nano**.
+1.first upload,'gesture_transmitter.ino'  to the transmitter **ARDUINO NAno**.                         
+2. Then upload 'gesture_receiver.ino' to the receiver **ARduiNO Nano**.                            
 3.Then, connect all the mentioned components as shown in the image properly.
 4.Make sure all the connections should be proper to avoid any damage of any components and also to run our hand controller properly.                                                                             
 5.  Now, give  power   to both the circuits.
@@ -157,13 +157,13 @@ Data transmitted : by using the X and Y values of our hand directions.
 9. Hence, in this way, our project is successfull.
 
 
-**FUTURE IMPROVEMENTS**
+**FUTURE IMPROVEMENTS**                                                           
 .Adding of  obstacle avoiding appliance.                                                                                      
 . Improve gesture accuracy.                                                                                                  
 . ADDING OF THE CAMERA.                                                                                       
 
 
-**AUTHOR**
+**PROJECT BY**
 KHUSHI GUPTA
 
 
