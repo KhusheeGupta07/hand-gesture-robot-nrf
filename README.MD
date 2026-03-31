@@ -158,7 +158,7 @@ Data transmitted : by using the X and Y values of our hand directions.
 8. And , finally , you will see our hand controller is moving.                                     
 9. Hence, in this way, our project is successfull.
 
-![hand-gesture-robot-nrf](BOM/Bill_of_Materials.csv)                                                          
+![hand-gesture-robot-nrf](BOM\Bill_of_Materials.csv)                                                          
 **FUTURE IMPROVEMENTS**                                                                                               
 1.Adding of  obstacle avoiding appliance.                                                                                      
 2. Improve gesture accuracy.                                                                                                  
