@@ -68,6 +68,11 @@ So, this is very memorable  moment for me to building such a nice CAD Design , .
 seeing a glance of my model . It took me about  4 to 5 days to complete this task.                             
 I spent about total 48 to 50  hrs in these days on making these cad designs, but this is very learning journing.                          
 ![hand-gesture-robot-nrf](receiver_cad.jpeg)
+
+then , i write reuired codes for for transmitted into the receiver and transmitter arduino nano. i write them and then check them by uploading on  testing softwares,
+then they success fully compiled with showing  errors for one- two times.
+
+Then i design the reqired pcb for my hardware project.
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
