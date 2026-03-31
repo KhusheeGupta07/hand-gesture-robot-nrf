@@ -125,7 +125,7 @@ WE have to make sure that NRF24L01 is powered by the 3.3v ,,not by the 5V ,,to a
 7.IN THIS WAY ,, FINALLY ,, OUR HAND GESTURE ROBOT IS READY TO  WORK.                           
 
 
-**##CODE EXPLANATION**                                                                        
+**##  CODE EXPLANATION**                                                                        
 
 [TRANSMITTER SIDE]                                                    
 IT READS THE ADXL VALUES.                                                                          
