@@ -158,9 +158,9 @@ Data transmitted : by using the X and Y values of our hand directions.
 
 
 **FUTURE IMPROVEMENTS**                                                                                               
-.Adding of  obstacle avoiding appliance.                                                                                      
-. Improve gesture accuracy.                                                                                                  
-. ADDING OF THE CAMERA.                                                                                       
+1.Adding of  obstacle avoiding appliance.                                                                                      
+2. Improve gesture accuracy.                                                                                                  
+3. ADDING OF THE CAMERA.                                                                                       
 
 
 **PROJECT BY**                                                                        
