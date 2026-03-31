@@ -74,7 +74,7 @@ then they success fully compiled with showing  errors for one- two times.
 
 Then i design the reqired pcb for my hardware project.
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-
+i cheked all the documents again and  again , to miniize  errors  espicially in the code part.
 
  After this i am applying for the grant. i want to work on this project as soon as possible as it is making me very excited.
 
