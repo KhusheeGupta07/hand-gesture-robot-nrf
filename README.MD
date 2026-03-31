@@ -36,14 +36,14 @@ COMPONENTS:---
 3.NRF24L01
 
 
-[ADXL345 Pin ->  ARDUINO NANO(I2C)]                                                                        
+[ADXL345 Pin ->  ARDUINO NANO(I2C)]                                                                                                                                                                                                                        
 ADXL345 SDA-----A4(ARDUINO)                                                                                                      
 ADXL 345 SCL-----A5(ARDUINO)                                                                                                            
 ADXL 345 VCC----3.3V                                                                                                     
 ADXL 345 GND---GND                                                                                                                                    
 
 
-[NRF24L01   -> ARDUINO NANO]                                                                        
+[NRF24L01   -> ARDUINO NANO]                                                                                                                                                                                                                        
 NRF24L01 SCK----D13                                                                               
 NRF24L01  CE---D9                                                                                                 
 NRF24L01 CSN---D10                                                      
@@ -67,7 +67,7 @@ COMPONENTS:--
 4, DC MOTOR(*4)
 
 
-[NRF24L01  ->  Arduino]                                                                        
+[NRF24L01  ->  Arduino]                                                                                                                                                                                                                                                            
 NRF24L01 CE---D9                                                                     
 NRF24L01 CSN---D10                                                                
 NRF24L01 SCK---D13                                                              
@@ -76,7 +76,7 @@ NRF24L01 MISO---D12
 NRF24L01 VCC---3.3V                                                                                                                                   
 NRF24L01 GND---GND                                                                         
 
-[MOTOR DRIVER L298N PIN -->Arduino]                                                                        
+[MOTOR DRIVER L298N PIN -->Arduino]                                                                                                            
 
 IN1 ----------D2                                                          
 IN2-----------D3                                                
@@ -90,7 +90,7 @@ DC MOTORS ------MOTOR DRIVE AS AN OUTPUT...
 TRANSMITTER:                                                                                                                       
 Arduino  POWERED VIA 9V BATTTERY.
 
-RECEIVER:                                                                        
+RECEIVER:                                                                                                            
 BATTERY  -> L298N                                                                        
 L298N  -> POWER SOURCES                                                                        
 Arduino   GETS POWER FROM BATTERY 12 V BATTREY                                                                    
