@@ -1,4 +1,4 @@
-## **HAND GESTURE CONTROLLED BOT**##
+## **HAND GESTURE CONTROLLED BOT**
 
 ## **PROBLEM STATEMENT OF THIS PROJECT**
 Traditional robot control methods like wired controllers or joysticks lesses their uses and their interaction with everyone.So, there is a need for wireless,easily handable and human friendly control robots, especially for learning robotics and human–machine interaction.
@@ -149,6 +149,15 @@ AND THEN  CONTROLS MOTOR DRIVER PINS ACCORDINGLY TO THE RECEIVED COMMANDS AND MO
 A Wireless communication is done using a NRF25L01 (2.4 Ghz).                                                                                
 Data transmitted : by using the X and Y values of our hand directions.                                    
 
+## **3D CAD DESIGN'S SCREENSHOTT**
+
+______________________________________________________________________________________________________________
+![hand-gesture-robot-nrf](images/receiver_cad.jpeg)
+__________________________________________________________________________________________________________________
+![hand-gesture-robot-nrf](images/transmitter_cad.jpeg)
+
+
+______________________________________________________________________________________________________________
 ## **HOW TO RUN OUR ROBOT**                                                        
 (step by step  rules )                                                                        
 1.first upload,'gesture_transmitter.ino'  to the transmitter **ARDUINO NAno**.                                    
