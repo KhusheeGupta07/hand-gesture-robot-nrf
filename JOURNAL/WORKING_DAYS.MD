@@ -60,7 +60,10 @@ ________________________________________________________________________________
 todaY I come back to my CAD designing PROCESS,. I sit omn my chair by the thought of com[pleting the cad designs.
 so I started making and making , working on my cad modekls .i design and designs, sometimes my deisgn not 
 accurate ,then i correct them by making some another mistakes .
+__________________________________________________________________________________
 ![hand-gesture-robot-nrf](learning_phase.png)
+__________________________________________________________________________________
+![hand-gesture-robot-nrf](caddesgm.png)
 So, this is very memorable  moment for me to building such a nice CAD Design , . I became very happy after 
 seeing a glance of my model . It took me about  4 to 5 days to complete this task.                             
 I spent about total 48 to 50  hrs in these days on making these cad designs, but this is very learning journing.                          
