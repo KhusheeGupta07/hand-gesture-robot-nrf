@@ -9,7 +9,7 @@ This project implements a hand gesture controlled robot using an accelerometer a
 
 ![hand-gesture-robot-nrf](images/designs.jpeg)
 
-**HOW THIS WORKS**
+## HOW THIS WORKS
 
 At first,  Our Hand gestures are detected by using an accelerometer.Then,the transmitter Arduino Nano processes gesture data.Then,Commands are sent wirelessly using the "NRF24L01 module" from transmitter Arduino Nano to receiver Arduino  Nano.
 Then,receiver Arduino  decodes the data.and give commands to  receiver Arduino.And by using a motor driver ,we control four motors based on received commands.
