@@ -7,7 +7,7 @@ Traditional robot control methods like wired controllers or joysticks lesses the
 
 This project implements a hand gesture controlled robot using an accelerometer and NRF24L01 wireless modules.  Our hand movements are captured by the transmitter unit which is  placed at our hand and sent wirelessly to a receiver unit which is on the robot. The receiver interprets these gestures and controls four DC motors accordingly and enabling us smooth and responsive robot movement.
 
-![hand-gesture-robot-nrf](images\designs.jpeg)
+![hand-gesture-robot-nrf](images/designs.jpeg)
 
 **HOW THIS WORKS**
 
@@ -158,7 +158,7 @@ Data transmitted : by using the X and Y values of our hand directions.
 8. And , finally , you will see our hand controller is moving.                                     
 9. Hence, in this way, our project is successfull.
 
-
+BOM/
 **FUTURE IMPROVEMENTS**                                                                                               
 1.Adding of  obstacle avoiding appliance.                                                                                      
 2. Improve gesture accuracy.                                                                                                  
