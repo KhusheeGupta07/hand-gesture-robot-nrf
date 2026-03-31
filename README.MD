@@ -7,7 +7,7 @@ Traditional robot control methods like wired controllers or joysticks lesses the
 
 This project implements a hand gesture controlled robot using an accelerometer and NRF24L01 wireless modules.  Our hand movements are captured by the transmitter unit which is  placed at our hand and sent wirelessly to a receiver unit which is on the robot. The receiver interprets these gestures and controls four DC motors accordingly and enabling us smooth and responsive robot movement.
 
-##**HOW THIS WORKS**
+**HOW THIS WORKS**
 
 At first,  Our Hand gestures are detected by using an accelerometer.Then,the transmitter Arduino Nano processes gesture data.Then,Commands are sent wirelessly using the "NRF24L01 module" from transmitter Arduino Nano to receiver Arduino  Nano.
 Then,receiver Arduino  decodes the data.and give commands to  receiver Arduino.And by using a motor driver ,we control four motors based on received commands.
