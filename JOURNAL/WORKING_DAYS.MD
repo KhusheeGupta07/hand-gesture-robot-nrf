@@ -42,8 +42,8 @@ and learning more to more. i spent about 14-15 hours on making readme.md.
 
 I had learned pcb and circuit design from various online tutorials.
 I learned how to make connections of a pin of one component to the another pin of second component , so that components get proper current and voltage to run.
-![hand-gesture-robot-nrf](PCB/recie_ver_PCB.jpeg)  
-![hand-gesture-robot-nrf](PCB/trans_mitter_PCB.jpeg)  
+![hand-gesture-robot-nrf](reciever.jpeg)  
+![hand-gesture-robot-nrf](transmitter.jpeg)  
 ________________________________________________________________________________________________________________
 
 **DAY 11-15:**
