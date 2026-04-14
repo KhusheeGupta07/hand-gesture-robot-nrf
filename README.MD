@@ -56,8 +56,8 @@ NRF24L01 GND---GND
 IMPORTANT : NRF works only on 3.3 V( NOT 5V)
 
 
-![hand-gesture-robot-nrf](PCB/trans_mitter.jpeg)
-![hand-gesture-robot-nrf](PCB/transmitter_pcb.jpeg)
+![hand-gesture-robot-nrf](PCB/trans_mitter_PCB.jpeg)
+![hand-gesture-robot-nrf](PCB/transmitter.jpeg)
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
