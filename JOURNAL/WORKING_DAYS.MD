@@ -67,7 +67,7 @@ ________________________________________________________________________________
 __________________________________________________________________________________
 ![hand-gesture-robot-nrf](caddesgm.png)
 So, this is very memorable  moment for me to building such a nice CAD Design , . I became very happy after 
-seeing a glance of my model . It took me about  4 to 5 days to complete this task.                             
+seeing a glance of my model . It took me about  4 to 5 days more, to complete this task.                             
 I spent about total 38 to 40  hrs in these days on making these cad designs, but this is very learning journing.                          
 
 ![hand-gesture-robot-nrf](receiver_cad.jpeg)
