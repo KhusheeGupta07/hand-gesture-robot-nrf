@@ -154,7 +154,7 @@ Data transmitted : by using the X and Y values of our hand directions.
 ## **3D CAD DESIGN'S SCREENSHOTT**
 
 ______________________________________________________________________________________________________________
-![hand-gesture-robot-nrf](images/receiver_cad.jpeg)
+![hand-gesture-robot-nrf](images/reciever_cad.jpeg)
 __________________________________________________________________________________________________________________
 ![hand-gesture-robot-nrf](images/transmitter_cad.jpeg)
 
