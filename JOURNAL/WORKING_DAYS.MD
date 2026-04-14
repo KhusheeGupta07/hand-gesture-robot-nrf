@@ -32,7 +32,7 @@ ________________________________________________________________________________
 
 **DAY 9-10:**                                                                                                        
 ___________________________________________________________________________________________________________________
-Today I had built my Readme.md file.
+Today I had built my Readme.md file AND circuit design.
 Generally , I get heaitated about talking on my work, which I had  done,, but this readme.md is such a great thing .
 I am able to explaining about my whole project openely 
 Also , github is an open source for all the developers,, so it may be very helpful for all of us to unlock new Idea,
@@ -40,7 +40,7 @@ and learning more to more. i spent about 14-15 hours on making readme.md.
 
 "README.MD" AS WELL AS THIS "journal"  WILL BE  Updated as work goes on progress,, day by day.
 
-I had learned pcb and circuit design from various online tutorials.
+I had learned  circuit design from various online tutorials.
 I learned how to make connections of a pin of one component to the another pin of second component , so that components get proper current and voltage to run.
 ![hand-gesture-robot-nrf](reciever.jpeg)  
 ![hand-gesture-robot-nrf](transmitter.jpeg)  
