@@ -85,8 +85,8 @@ NRF24L01 GND---GND
 IN1 ----------D2                                                          
 IN2-----------D3                                                
 IN3---------D4                                                   
-IN4---------D5                                                                                                                                                                                                                      ![hand-gesture-robot-nrf](PCB/recie_ver.jpeg)                                                                 
-![hand-gesture-robot-nrf](PCB/receiver_pcb.jpeg)
+IN4---------D5                                                                                                                                                                                                                      ![hand-gesture-robot-nrf](PCB/recie_ver_PCB.jpeg)                                                                 
+![hand-gesture-robot-nrf](PCB/receiver.jpeg)
 
 
 
