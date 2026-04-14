@@ -36,11 +36,13 @@ Today I had built my Readme.md file.
 Generally , I get heaitated about talking on my work, which I had  done,, but this readme.md is such a great thing .
 I am able to explaining about my whole project openely 
 Also , github is an open source for all the developers,, so it may be very helpful for all of us to unlock new Idea,
-and learning more to more. i spent about 5 hours on making readme.md.
+and learning more to more. i spent about 14-15 hours on making readme.md.
 
 "README.MD" AS WELL AS THIS "journal"  WILL BE  Updated as work goes on progress,, day by day.
 
-__________________________________________________________________________________________________________________
+I had learned pcb and circuit design from various online tutorials.
+I learned how to make connections of a pin of one component to the another pin of second component , so that components get proper current and voltage to run.
+__![hand-gesture-robot-nrf](PCB/receiver.jpeg)________________________________________________________________________________________________________________
 
 **DAY 11-15:**
 ___________________________________________________________________________________________________________________
@@ -67,8 +69,7 @@ ________________________________________________________________________________
 So, this is very memorable  moment for me to building such a nice CAD Design , . I became very happy after 
 seeing a glance of my model . It took me about  4 to 5 days to complete this task.                             
 I spent about total 38 to 40  hrs in these days on making these cad designs, but this is very learning journing.                          
-![hand-gesture-robot-nrf](PCB/recie_ver.jpeg)
-![hand-gesture-robot-nrf](PCB/trans_mitter.jpeg)
+
 ![hand-gesture-robot-nrf](receiver_cad.jpeg)
 
 then , i write reuired codes for for transmitted into the receiver and transmitter arduino nano. i write them and then check them by uploading on  testing softwares,
